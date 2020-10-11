@@ -1,5 +1,6 @@
 <?php
 include 'config.php';
+
 	if (isset($_POST['getData'])) {
 		
 		$start = $conn->real_escape_string($_POST['start']);

@@ -48,7 +48,7 @@
 						<div class="col-md-12">
 							<h1 class="m-b-20"><strong>Selamat Datang di<br> Wisata Kampung Nelayan</strong></h1>
 							<p class="m-b-40">Kampung Wisata Nelayan dan Kuliner Lauak Pukek di Kelurahan Pasia Nan Tigo Kecamatan Koto Tangah <br>Kota Padang Sumatera Barat</p>
-							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="menu.php">Menu Kuliner</a></p>
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="rumahMakan.php">Rumah Makan</a></p>
 						</div>
 					</div>
 				</div>
@@ -72,7 +72,7 @@
 						<div class="col-md-12">
 							<h1 class="m-b-20"><strong>Selamat Datang di<br> Wisata Kampung Nelayan</strong></h1>
 							<p class="m-b-40">Kampung Wisata Nelayan dan Kuliner Lauak Pukek di Kelurahan Pasia Nan Tigo Kecamatan Koto Tangah <br>Kota Padang Sumatera Barat</p>
-							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="menu.php">Menu Kuliner</a></p>
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="rumahMakan.php">Rumah Makan</a></p>
 						</div>
 					</div>
 				</div>

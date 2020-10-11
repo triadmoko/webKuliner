@@ -174,7 +174,7 @@ include 'config.php';
                 return;
 
             $.ajax({
-               url: 'getDataAll.php',
+               url: 'getDataRumahMakan.php',
                method: 'POST',
                dataType: 'text',
                data: {
