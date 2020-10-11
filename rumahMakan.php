@@ -70,7 +70,7 @@ include 'config.php';
 		<div class="container text-center">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1>Special Menu</h1>
+					<h1>Rumah Makan</h1>
 				</div>
 			</div>
 		</div>
@@ -83,8 +83,8 @@ include 'config.php';
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="heading-title text-center" >
-						<h2 id="menu">Pilih Menu</h2>
-						<p>Order sekarang kuliner pasir jambak melalui GoFood</p>
+						<h2 id="menu">Pilih Rumah Makan</h2>
+						<p>Pilih Rumah Makan Penyedia Kuliner di Wisata Kampung Nelayan</p>
 					</div>
 				</div>
 			</div>

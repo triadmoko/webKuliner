@@ -13,7 +13,7 @@ function query($query) {
 	return $rows;
 }
 
-
+// fungsi tambah kuliner
 function tambah($data) {
 	global $conn;
 	$namaKuliner = htmlspecialchars($data["namaKuliner"]);
@@ -31,6 +31,30 @@ function tambah($data) {
 	$query = "INSERT INTO `shop` 
 				(`id`, `nama`, `jenis`, `harga`, `gambar`, `gojek`) 
 				VALUES (NULL, '$namaKuliner', '$jenisKuliner', '$harga', '$gambar', '$url');
+			";
+	mysqli_query($conn, $query);
+
+	return mysqli_affected_rows($conn);
+}
+
+
+// fungsi tambah rumah makan
+function addRumahMakan($data) {
+	global $conn;
+	$namaRumahMakan = htmlspecialchars($data['namaRM']);
+	$alamat = htmlspecialchars($data['alamat']);
+	$nohp = htmlspecialchars($data['nohp']);
+	$pemilik = htmlspecialchars($data['pemilik']);
+
+	// add gambar dari rumah makan
+	$gambar = upload();
+	if( !$gambar ) {
+		return false;
+	}
+
+	$query = "INSERT INTO `rm`
+				(`id`, `namaRM`, `pemilik`, `alamat`, `nohp`, `gambar`) 
+			VALUES (NULL,'$namaRumahMakan','$pemilik','$alamat','$nohp','$gambar')
 			";
 	mysqli_query($conn, $query);
 
@@ -83,15 +107,17 @@ function upload() {
 	return $namaFileBaru;
 }
 
-
-
-
 function hapus($id) {
 	global $conn;
 	mysqli_query($conn, "DELETE FROM shop WHERE id = $id");
 	return mysqli_affected_rows($conn);
 }
 
+function hapusRumahMakan($id) {
+	global $conn;
+	mysqli_query($conn, "DELETE FROM rm WHERE id = $id");
+	return mysqli_affected_rows($conn);
+}
 
 function ubah($data) {
 	global $conn;
@@ -126,7 +152,38 @@ function ubah($data) {
 
 	return mysqli_affected_rows($conn);	
 }
+function editRumahMakan($data) {
+	global $conn;
 
+	$id = $data["id"];
+	$namaRumahMakan = htmlspecialchars($data['namaRM']);
+	$alamat = htmlspecialchars($data['alamat']);
+	$nohp = htmlspecialchars($data['nohp']);
+	$pemilik = htmlspecialchars($data['pemilik']);
+	$gambarLama = htmlspecialchars($data["inputFileLama"]);
+	
+	// cek apakah user pilih gambar baru atau tidak
+	if( $_FILES['inputFile']['error'] === 4 ) {
+		$Gambar = $gambarLama;
+	} else {
+		$Gambar = upload();
+	}
+	
+
+	$query = "UPDATE rm SET
+				namaRM = '$namaRumahMakan',
+				pemilik = '$pemilik',
+				alamat = '$alamat',
+				nohp = '$nohp',
+				gambar = '$Gambar'
+
+			  WHERE id = $id
+			";
+
+	mysqli_query($conn, $query);
+
+	return mysqli_affected_rows($conn);	
+}
 
 function cari($keyword) {
 	$query = "SELECT * FROM shop

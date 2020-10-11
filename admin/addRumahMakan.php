@@ -1,3 +1,18 @@
+<?php 
+include '../config.php';
+  if (isset($_POST['addRumahMakan'])) {
+
+      if (addRumahMakan($_POST) > 0) {
+
+        echo "<script>alert ('data berhasil ditambahkan')</script>";
+
+      }else{
+
+      echo "<script>alert ('data gagal')</script>";
+  	}
+  }
+
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -65,7 +80,7 @@
 
 							<div class="col-md-12">
 								<div class="form-group">
-									<input type="number" min="9" max="12" class="form-control" id="nohp" name="nohp" placeholder="No.Hp Rumah Makan" required data-error="Silahkan masukkan no.hp rumah makan" autocomplete>
+									<input type="number" class="form-control" id="nohp" name="nohp" placeholder="No.Hp Rumah Makan" required data-error="Silahkan masukkan no.hp rumah makan" autocomplete>
 									<div class="help-block with-errors"></div>
 								</div>                                 
 							</div>
@@ -75,23 +90,6 @@
 									<input type="text" class="form-control" id="pemilik" name="pemilik" placeholder="Pemilik Rumah Makan" required data-error="Silahkan masukkan pemilik rumah makan" autocomplete>
 									<div class="help-block with-errors"></div>
 								</div>                                 
-							</div>
-
-							<div class="col-md-12">
-								<div class="form-group">
-									<input type="text" placeholder="Harga" id="rupiah" class="form-control" name="harga" required data-error="Silahkan masukkan harga">
-									<div class="help-block with-errors"></div>
-								</div> 
-							</div>
-							<div class="col-md-12">
-								<div class="form-group">
-									<select class="custom-select d-block form-control" id="guest" required data-error="Please Select Person" name="jenisKuliner">
-									  <option disabled selected>Pilih Jenis Kuliner*</option>
-									  <option value="makanan">Makanan</option>
-									  <option value="minuman">Minuman</option>
-									</select>
-									<div class="help-block with-errors"></div>
-								</div> 
 							</div>
 
 							<div class="col-md-12">
@@ -111,7 +109,7 @@
 							        </div>
 							    </div>
 								<div class="submit-button text-center">
-									<button class="btn btn-common" name="addKuliner" id="submit" type="submit">Tambah Kuliner</button>
+									<button class="btn btn-common" name="addRumahMakan" id="submit" type="submit">Tambah Rumah Makan</button>
 									<div id="msgSubmit" class="h3 text-center hidden"></div> 
 									<div class="clearfix"></div> 
 								</div>

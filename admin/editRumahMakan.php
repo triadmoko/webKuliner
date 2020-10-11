@@ -1,31 +1,37 @@
 <?php 
-session_start();
 include '../config.php';
+$id = $_GET['url'];
+$getRumahMakan = query("SELECT * FROM rm WHERE id=$id ")[0];
+  
+  if (isset($_POST['editRumahMakan'])) {
 
-  if(!isset($_SESSION["login"]) ) {
 
-    header("Location:login.php");
+    if (editRumahMakan($_POST) > 0) {
 
-    exit;
+
+      echo "<script>
+				alert('berhasil di edit')
+		      </script>";
+
+		      header("location:viewsRumahMakan.php")
+    }else{
+
+
+      echo "<script>
+				alert('Gagal Perubahan')
+		      </script>";
+
+    }
+
 
   }
 
-  if (isset($_POST['addKuliner'])) {
-
-      if (tambah($_POST) > 0) {
-
-        echo "<script>alert ('data berhasil ditambahkan')</script>";
-
-      }else{
-
-      echo "<script>alert ('data gagal')</script>";
-  	}
-  }
-$listRumahMakan = query("SELECT * FROM rm");
-?>
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
+	<title></title>
+</head>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">   
    
@@ -49,12 +55,13 @@ $listRumahMakan = query("SELECT * FROM rm");
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="../css/responsive.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="../css/custom.css">
-</head>
+
+
 <body>
 <!-- start header -->
 <?php include 'views/header.php'; ?>
 <!-- end header -->
+
 <!-- form -->
 <br><br><br>
 	<div class="contact-box">
@@ -62,58 +69,55 @@ $listRumahMakan = query("SELECT * FROM rm");
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="heading-title text-center">
-						<h2>Silahkan Tambah Kuliner</h2>
+						<h2>Silahkan Tambahkan Rumah Makan</h2>
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-lg-12">
 					<form method="POST" enctype="multipart/form-data">
+						<input type="text" name="id" value="<?= $getRumahMakan['id'] ?>" hidden="">
 						<fieldset>
 						<div class="row">
 							<div class="col-md-12">
 								<div class="form-group">
-									<input type="text" class="form-control" id="name" name="namaKuliner" placeholder="Nama Kuliner" required data-error="Silahkan masukkan Nama kuliner" autocomplete>
+									<input type="text" class="form-control" id="namaRM" name="namaRM" placeholder="Nama Rumah Makan" required data-error="Silahkan masukkan Nama Rumah Makan" value=" <?= $getRumahMakan['namaRM'] ?> " autocomplete>
+									<div class="help-block with-errors"></div>
+								</div>                                 
+							</div>
+
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="text" class="form-control" id="alamat" name="alamat" placeholder="Alamat Rumah Makan" required data-error="Silahkan masukkan alamat rumah makan" autocomplete value="<?= $getRumahMakan['alamat'] ?>">
+									<div class="help-block with-errors"></div>
+								</div>                                 
+							</div>
+
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="number" class="form-control" id="nohp" name="nohp" placeholder="No.Hp Rumah Makan" required data-error="Silahkan masukkan no.hp rumah makan" autocomplete value="<?= $getRumahMakan['nohp'] ?>">
 									<div class="help-block with-errors"></div>
 								</div>                                 
 							</div>
 							
 							<div class="col-md-12">
 								<div class="form-group">
-									<input type="text" placeholder="Harga" id="rupiah" class="form-control" name="harga" required data-error="Silahkan masukkan harga">
-									<div class="help-block with-errors"></div>
-								</div> 
-							</div>
-							<div class="col-md-12">
-								<div class="form-group">
-									<select class="custom-select d-block form-control" id="guest" required data-error="Please Select Person" name="jenisKuliner">
-									<option disabled selected>Pilih Pemilik Rumah Makan*</option>
-									
-									<?php foreach ($listRumahMakan as $row ):?>
-									  <option value="<?= $row['namaRM'] ?>"><?= $row['namaRM'] ?></option>
-									 <?php endforeach; ?>
-
-									</select>
-									<div class="help-block with-errors"></div>
-								</div> 
-							</div>
-
-							<div class="col-md-12">
-								<div class="form-group">
-									<input type="url" name="url" id="url" placeholder="https://gofood.link/u/example" pattern="https://.*" size="30" class="form-control" id="name" required data-error="Silahkan Url GoFood">
+									<input type="text" class="form-control" id="pemilik" name="pemilik" placeholder="Pemilik Rumah Makan" required data-error="Silahkan masukkan pemilik rumah makan" autocomplete value="<?= $getRumahMakan['pemilik'] ?>">
 									<div class="help-block with-errors"></div>
 								</div>                                 
 							</div>
-							
+
 							<div class="col-md-12">
 								<div class="row">
 							        <div class="col-md-3 ">
 							            <div class="card">
 							                <div class="imgWrap">
-							                    <img width="10" src="https://www.freeiconspng.com/thumbs/no-image-icon/no-image-icon-6.png" id="imgView" class="card-img-top img-fluid">
+							                    <img width="10" src="img/<?= $getRumahMakan['gambar'] ?>" id="imgView" class="card-img-top img-fluid">
 							                </div>
 							                <div class="card-body">
 							                    <div class="custom-file">
+							                    	<input hidden="" value="<?= $getRumahMakan['gambar'] ?>"  name="inputFileLama">
+
 							                        <input name="inputFile" type="file" id="inputFile" class="imgFile custom-file-input" aria-describedby="inputGroupFileAddon01">
 							                        <label class="custom-file-label" for="inputFile">Choose file</label>
 							                    </div>
@@ -122,7 +126,7 @@ $listRumahMakan = query("SELECT * FROM rm");
 							        </div>
 							    </div>
 								<div class="submit-button text-center">
-									<button class="btn btn-common" name="addKuliner" id="submit" type="submit">Tambah Kuliner</button>
+									<button class="btn btn-common" name="editRumahMakan" id="submit" type="submit">Edit Rumah Makan</button>
 									<div id="msgSubmit" class="h3 text-center hidden"></div> 
 									<div class="clearfix"></div> 
 								</div>
@@ -189,69 +193,15 @@ $listRumahMakan = query("SELECT * FROM rm");
 		</div>
 		
 	</footer>
-<!-- end footer -->
-<script type="text/javascript">
-		
-		var rupiah = document.getElementById('rupiah');
-		rupiah.addEventListener('keyup', function(e){
-			// tambahkan 'Rp.' pada saat form di ketik
-			// gunakan fungsi formatRupiah() untuk mengubah angka yang di ketik menjadi format angka
-			rupiah.value = formatRupiah(this.value, 'Rp. ');
-		});
- 
-		/* Fungsi formatRupiah */
-		function formatRupiah(angka, prefix){
-			var number_string = angka.replace(/[^,\d]/g, '').toString(),
-			split   		= number_string.split(','),
-			sisa     		= split[0].length % 3,
-			rupiah     		= split[0].substr(0, sisa),
-			ribuan     		= split[0].substr(sisa).match(/\d{3}/gi);
- 
-			// tambahkan titik jika yang di input sudah menjadi angka ribuan
-			if(ribuan){
-				separator = sisa ? '.' : '';
-				rupiah += separator + ribuan.join('.');
-			}
- 
-			rupiah = split[1] != undefined ? rupiah + ',' + split[1] : rupiah;
-			return prefix == undefined ? rupiah : (rupiah ? 'Rp. ' + rupiah : '');
-		}
-	</script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</body>
 	<script>
-    $("#inputFile").change(function(event) {  
-      fadeInAdd();
-      getURL(this);    
-    });
-
-    $("#inputFile").on('click',function(event){
-      fadeInAdd();
-    });
-
-    function getURL(input) {    
-      if (input.files && input.files[0]) {   
-        var reader = new FileReader();
-        var filename = $("#inputFile").val();
-        filename = filename.substring(filename.lastIndexOf('\\')+1);
-        reader.onload = function(e) {
-          debugger;      
-          $('#imgView').attr('src', e.target.result);
-          $('#imgView').hide();
-          $('#imgView').fadeIn(500);      
-          $('.custom-file-label').text(filename);             
-        }
-        reader.readAsDataURL(input.files[0]);    
-      }
-      $(".alert").removeClass("loadAnimate").hide();
-    }
-
-    function fadeInAdd(){
-      fadeInAlert();  
-    }
-    function fadeInAlert(text){
-      $(".alert").text(text).addClass("loadAnimate");  
-    }
-</script>
+	CKEDITOR.editorConfig = function( config ) {
+	config.language = 'es';
+	config.uiColor = '#F7B42C';
+	config.height = 300;
+	config.toolbarCanCollapse = true;
+};
+	</script>
 	<!-- ALL JS FILES -->
 	<script src="../js/jquery-3.2.1.min.js"></script>
 	<script src="../js/popper.min.js"></script>
@@ -264,5 +214,4 @@ $listRumahMakan = query("SELECT * FROM rm");
 	<script src="../js/form-validator.min.js"></script>
     <script src="../js/contact-form-script.js"></script>
     <script src="../js/custom.js"></script>
-</body>
 </html>

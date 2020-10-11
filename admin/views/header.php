@@ -18,7 +18,7 @@
 						</li>
 
 						<li class="nav-item"><a class="nav-link" href="menu.php">Menu Kuliner</a></li>
-						<li class="nav-item"><a class="nav-link" href="index.php">Rumah Makan</a></li>
+						<li class="nav-item"><a class="nav-link" href="viewsRumahMakan.php">Rumah Makan</a></li>
 						
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Pages</a>

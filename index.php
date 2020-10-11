@@ -60,7 +60,7 @@
 						<div class="col-md-12">
 							<h1 class="m-b-20"><strong>Selamat Datang di<br> Wisata Kampung Nelayan</strong></h1>
 							<p class="m-b-40">Kampung Wisata Nelayan dan Kuliner Lauak Pukek di Kelurahan Pasia Nan Tigo Kecamatan Koto Tangah <br>Kota Padang Sumatera Barat</p>
-							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="menu.php">Menu Kuliner</a></p>
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="rumahMakan.php">Rumah Makan</a></p>
 						</div>
 					</div>
 				</div>
@@ -96,7 +96,7 @@
 						<p>Sebanyak 16 RM lauak pukek tersebar di pesisir kampung wisata nelayan Pasia Nan Tigo. Rumah makan “lauk pukek” (ikan pukat /jala) merupakan rumah makan khas kampung nelayan dimana menu makanan yang dijual adalah hasil tangkapan nelayan Pasie Nan Tigo sehingga rasanya sangat enak karena ikan yang diolah masih baru. Adapun jenis makanan andalannya seperti ikan gulai masin, ikan panggang/goreng, cumi panggang/goreng, palai bada dan lain-lain.</p>
 
 						<p>Penikmat kuliner “lauk pukek” Pasie Nan Tigo berasal dari dalam kota Padang maupun luar daerah bahkan luar Provinsi Sumatera Barat.   Biasanya RM “lauak pukek” dibuka pada jam 10.00 – 16.00 setiap harinya. Sambil menikmati kuliner “lauak pukek” pengunjung dapat menikmati suasana pantai yang sangat menawan serta dapat melihat aktivitas nelayan.</p>
-						<a class="btn btn-lg btn-circle btn-outline-new-white" href="menu.php#menu">Menu Kuliner</a>
+
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12">
