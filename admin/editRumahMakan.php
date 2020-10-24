@@ -37,7 +37,6 @@ $getRumahMakan = query("SELECT * FROM rm WHERE id=$id ")[0];
    
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
- 	<meta http-equiv="refresh" content="">
      <!-- Site Metas -->
     <title>Admin</title>  
     <meta name="keywords" content="">

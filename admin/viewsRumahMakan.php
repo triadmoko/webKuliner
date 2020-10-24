@@ -27,7 +27,6 @@ include '../config.php';
    
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
- 	<meta http-equiv="refresh" content="30">
      <!-- Site Metas -->
     <title>Admin</title>  
     <meta name="keywords" content="">

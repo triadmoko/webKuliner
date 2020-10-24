@@ -1,22 +1,19 @@
-<?php 
+<?php
 include '../config.php';
 $url = $_GET['url'];
 
-if (hapus($url) > 0 ) {
+if (hapus($url) > 0) {
 
 
 	echo "<script> alert('hapus berhasil');
 
 
 				   document.location.href = 'menu.php'; </script>";
-
-}else{
+} else {
 
 
 	echo "<script> alert('hapus gagal');
 
 
 				   document.location.href = 'menu.php' </script>";
-
-
 }

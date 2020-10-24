@@ -1,32 +1,34 @@
 <!DOCTYPE html>
-<html lang="en"><!-- Basic -->
+<html lang="en">
+<!-- Basic -->
+
 <head>
 	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
-   
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
- 
-     <!-- Site Metas -->
-    <title>Wisata Kampung Nelayan</title>  
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<!-- Mobile Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">    
+	<!-- Site Metas -->
+	<title>Wisata Kampung Nelayan</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Site Icons -->
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- Site CSS -->
-    <link rel="stylesheet" href="css/style.css">    
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/custom.css">
 
-    <!--[if lt IE 9]>
+	<!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
@@ -37,7 +39,7 @@
 	<!-- Start header -->
 	<?php include 'views/header.php'; ?>
 	<!-- End header -->
-	
+
 	<!-- Start slides -->
 	<div id="slides" class="cover-slides">
 		<ul class="slides-container">
@@ -84,7 +86,7 @@
 		</div>
 	</div>
 	<!-- End slides -->
-	
+
 	<!-- Start About -->
 	<div class="about-section-box">
 		<div class="container">
@@ -95,7 +97,7 @@
 						<h4>Kampung Nelayan</h4>
 						<p>Sebanyak 16 RM lauak pukek tersebar di pesisir kampung wisata nelayan Pasia Nan Tigo. Rumah makan “lauk pukek” (ikan pukat /jala) merupakan rumah makan khas kampung nelayan dimana menu makanan yang dijual adalah hasil tangkapan nelayan Pasie Nan Tigo sehingga rasanya sangat enak karena ikan yang diolah masih baru. Adapun jenis makanan andalannya seperti ikan gulai masin, ikan panggang/goreng, cumi panggang/goreng, palai bada dan lain-lain.</p>
 
-						<p>Penikmat kuliner “lauk pukek” Pasie Nan Tigo berasal dari dalam kota Padang maupun luar daerah bahkan luar Provinsi Sumatera Barat.   Biasanya RM “lauak pukek” dibuka pada jam 10.00 – 16.00 setiap harinya. Sambil menikmati kuliner “lauak pukek” pengunjung dapat menikmati suasana pantai yang sangat menawan serta dapat melihat aktivitas nelayan.</p>
+						<p>Penikmat kuliner “lauk pukek” Pasie Nan Tigo berasal dari dalam kota Padang maupun luar daerah bahkan luar Provinsi Sumatera Barat. Biasanya RM “lauak pukek” dibuka pada jam 10.00 – 16.00 setiap harinya. Sambil menikmati kuliner “lauak pukek” pengunjung dapat menikmati suasana pantai yang sangat menawan serta dapat melihat aktivitas nelayan.</p>
 
 					</div>
 				</div>
@@ -106,7 +108,7 @@
 		</div>
 	</div>
 	<!-- End About -->
-	
+
 	<!-- Start QT -->
 	<div class="qt-box qt-background">
 		<div class="container">
@@ -121,9 +123,9 @@
 		</div>
 	</div>
 	<!-- End QT -->
-	
+
 	<!-- Start Menu -->
-<!-- 	
+	<!-- 	
 	<div class="menu-box">
 		<div class="container">
 			<div class="row">
@@ -367,7 +369,7 @@
 	</div> 
 -->
 	<!-- End Menu -->
-	
+
 	<!-- Start Gallery -->
 	<div class="gallery-box">
 		<div class="container">
@@ -405,7 +407,7 @@
 						<a class="lightbox" href="images/gallery-img-05.jpg">
 							<img class="img-fluid" src="images/gallery-img-05.jpg" alt="Gallery Images">
 						</a>
-					</div> 
+					</div>
 					<div class="col-sm-6 col-md-4 col-lg-4">
 						<a class="lightbox" href="images/gallery-img-06.jpg">
 							<img class="img-fluid" src="images/gallery-img-06.jpg" alt="Gallery Images">
@@ -416,7 +418,7 @@
 		</div>
 	</div>
 	<!-- End Gallery -->
-	
+
 	<!-- Start Customer Reviews -->
 	<div class="customer-reviews-box">
 		<div class="container">
@@ -465,17 +467,17 @@
 							<i class="fa fa-angle-right" aria-hidden="true"></i>
 							<span class="sr-only">Next</span>
 						</a>
-                    </div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- End Customer Reviews -->
-	
+
 	<!-- Start Contact info -->
-	
+
 	<!-- End Contact info -->
-	
+
 	<!-- Start Footer -->
 	<footer class="footer-area bg-f">
 		<div class="container">
@@ -516,34 +518,35 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="copyright">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<p class="company-name">All Rights Reserved. &copy; 2018 <a href="#">Live Dinner Restaurant</a> Design By : 
-					<a href="https://html.design/">html design</a></p>
+						<p class="company-name">All Rights Reserved. &copy; 2018 <a href="#">Live Dinner Restaurant</a> Design By :
+							<a href="https://html.design/">html design</a></p>
 					</div>
 				</div>
 			</div>
 		</div>
-		
+
 	</footer>
 	<!-- End Footer -->
-	
+
 	<a href="#" id="back-to-top" title="Back to top" style="display: none;"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
 
 	<!-- ALL JS FILES -->
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-    <!-- ALL PLUGINS -->
+	<!-- ALL PLUGINS -->
 	<script src="js/jquery.superslides.min.js"></script>
 	<script src="js/images-loded.min.js"></script>
 	<script src="js/isotope.min.js"></script>
 	<script src="js/baguetteBox.min.js"></script>
 	<script src="js/form-validator.min.js"></script>
-    <script src="js/contact-form-script.js"></script>
-    <script src="js/custom.js"></script>
+	<script src="js/contact-form-script.js"></script>
+	<script src="js/custom.js"></script>
 </body>
+
 </html>
