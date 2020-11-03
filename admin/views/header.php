@@ -12,18 +12,18 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbars-rs-food">
 					<ul class="navbar-nav ml-auto">
-						<!-- <li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Add Data</a>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Galeri</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="index.php">Add Kuliner</a>
-								<a class="dropdown-item" href="addRumahMakan.php">Add Rumah Makan</a>
+								<a class="dropdown-item" href="index.php">Add Video</a>
+								<a class="dropdown-item" href="addRumahMakan.php">Add Gambar</a>
 							</div>
-						</li> -->
+						</li>
 
 						<li class="nav-item"><a class="nav-link" href="index.php">Add Kuliner</a></li>
-						<li class="nav-item"><a class="nav-link" href="addRumahMakan.php">Add Rumah Makan</a></li>
+						<li class="nav-item"><a class="nav-link" href="addRumahMakan.php">Add RM</a></li>
 						<li class="nav-item"><a class="nav-link" href="menu.php">Menu Kuliner</a></li>
-						<li class="nav-item"><a class="nav-link" href="viewsRumahMakan.php">Rumah Makan</a></li>
+						<li class="nav-item"><a class="nav-link" href="viewsRumahMakan.php">RM</a></li>
 						<li class="nav-item"><a class="nav-link" href="../index.php">Go Website</a></li>
 						
 						<!-- <li class="nav-item dropdown">

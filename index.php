@@ -32,7 +32,14 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+    	.quotews{
+    		text-align: center;
+    		font-size: 30px;
+    		color: white;
 
+    	}
+    </style>
 </head>
 
 <body>
@@ -114,9 +121,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 ml-auto mr-auto text-center">
-					<p class="lead">
-						"Kampung Wisata Nelayan dan Kuliner Lauak Pukek di Kelurahan Pasia Nan Tigo Kecamatan Koto Tangah."
-					</p>
+					<q class="quotews">Kampung Wisata Nelayan Kuliner Lauak Pukek di Kelurahan Pasia Nan Tigo Kota Padang.</q><br><br>
 					<span class="lead">Tim Kampung Wisata Nelayan Pasia Nan Tigo</span>
 				</div>
 			</div>
