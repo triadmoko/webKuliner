@@ -149,6 +149,7 @@ if (isset($_POST['cari'])) {
 												</a>
 												<center><a target="_blank" href="<?= $row['gojek'] ?>"><img title="Order Gofood" width="50" src="../images/gofood.png"></a></center>
 												<br>
+												<h4 style="text-align: center;color: #d65106; font-size: 18px;"><?= $row['harga'] ?></h4>
 												<h4 style="text-align: center; color: #d65106">
 													<div class="url">
 														<a href="hapus.php?url=<?= $row['id'] ?>">Delete</a>

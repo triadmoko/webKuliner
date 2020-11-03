@@ -6,8 +6,17 @@ include 'config.php';
 if (isset($_POST['cari'])) {
 	$result = cari($_POST['kata']);
 }
+
 $namaRumahMakan = $_GET['getDataMenuRumahMakan'];
 $namarm = query("SELECT * FROM shop WHERE jenis='$namaRumahMakan'")[0];
+if (isset($namarm)) {
+	
+}else{
+	echo "<script LANGUAGE='JavaScript'>
+    window.alert('Belum ada menu');
+    window.location.href='rumahMakan.php';
+    </script>";
+}
 ?>
 
 <!DOCTYPE html>
@@ -137,9 +146,11 @@ $namarm = query("SELECT * FROM shop WHERE jenis='$namaRumahMakan'")[0];
 											<div style="padding: 15px"><a href=""></a>
 												<a target="_blank" href="<?= $row['gojek'] ?>">
 													<h4 style="text-align: center;color: #d65106; font-size: 18px;"><?= $row['nama'] ?></h4>
+
 												</a>
 												<center><a target="_blank" href="<?= $row['gojek'] ?>"><img title="Order Gofood" width="50" src="images/gofood.png"></a></center>
 												<br>
+												<h4 style="text-align: center;color: #d65106; font-size: 18px;"><?= $row['harga'] ?></h4>
 												<h4 style="text-align: center; color: #d65106">
 												</h4>
 											</div>

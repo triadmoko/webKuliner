@@ -1,5 +1,13 @@
 <?php 
 include '../config.php';
+session_start();
+
+if (!isset($_SESSION["login"])) {
+
+	header("Location:login.php");
+
+	exit;
+}
 $id = $_GET['url'];
 $getRumahMakan = query("SELECT * FROM rm WHERE id=$id ")[0];
   
@@ -13,7 +21,7 @@ $getRumahMakan = query("SELECT * FROM rm WHERE id=$id ")[0];
 				alert('berhasil di edit')
 		      </script>";
 
-		      header("location:viewsRumahMakan.php")
+		      header("location:viewsRumahMakan.php");
     }else{
 
 

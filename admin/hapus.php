@@ -1,5 +1,13 @@
 <?php
 include '../config.php';
+session_start();
+
+if (!isset($_SESSION["login"])) {
+
+	header("Location:login.php");
+
+	exit;
+}
 $url = $_GET['url'];
 
 if (hapus($url) > 0) {

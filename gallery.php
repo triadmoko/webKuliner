@@ -45,7 +45,7 @@
 		<div class="container text-center">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1>Gallery</h1>
+					<h1>Galeri</h1>
 				</div>
 			</div>
 		</div>
@@ -58,41 +58,52 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="heading-title text-center">
-						<h2>Gallery</h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+						<h2>Galeri</h2>
+						<p>kumpulan kegiatan nelayan di pasia nan tigo</p>
 					</div>
 				</div>
 			</div>
 			<div class="tz-gallery">
 				<div class="row">
 					<div class="col-sm-12 col-md-4 col-lg-4">
-						<a class="lightbox" href="images/gallery-img-01.jpg">
-							<img class="img-fluid" src="images/gallery-img-01.jpg" alt="Gallery Images">
+						<a class="lightbox" href="images/thumb_IMG_8010_1024.jpg">
+							<img class="img-fluid" src="images/thumb_IMG_8010_1024.jpg" width="800" alt="Gallery Images">
 						</a>
 					</div>
 					<div class="col-sm-6 col-md-4 col-lg-4">
-						<a class="lightbox" href="images/gallery-img-02.jpg">
-							<img class="img-fluid" src="images/gallery-img-02.jpg" alt="Gallery Images">
-						</a>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-4">
-						<a class="lightbox" href="images/gallery-img-03.jpg">
-							<img class="img-fluid" src="images/gallery-img-03.jpg" alt="Gallery Images">
+						<a class="lightbox" href="images/thumb_IMG_8010_1024.jpg">
+							<img class="img-fluid" src="images/thumb_IMG_8143_1024.jpg" alt="Gallery Images">
 						</a>
 					</div>
 					<div class="col-sm-12 col-md-4 col-lg-4">
-						<a class="lightbox" href="images/gallery-img-04.jpg">
-							<img class="img-fluid" src="images/gallery-img-04.jpg" alt="Gallery Images">
+						<a class="lightbox" href="images/thumb_IMG_8567_1024.jpg">
+							<img class="img-fluid" src="images/thumb_IMG_8567_1024.jpg" alt="Gallery Images">
+						</a>
+					</div>
+					
+					<div class="col-sm-6 col-md-4 col-lg-4">
+						<a class="lightbox" href="images/thumb_IMG_8529_1024.jpg">
+							<img class="img-fluid" src="images/thumb_IMG_8529_1024.jpg" alt="Gallery Images">
+						</a>
+					</div>
+
+					<div class="col-sm-6 col-md-4 col-lg-4">
+						<a class="lightbox" href="images/thumb_IMG_7820_1024.jpg">
+							<img class="img-fluid" src="images/thumb_IMG_7820_1024.jpg" alt="Gallery Images">
 						</a>
 					</div>
 					<div class="col-sm-6 col-md-4 col-lg-4">
-						<a class="lightbox" href="images/gallery-img-05.jpg">
-							<img class="img-fluid" src="images/gallery-img-05.jpg" alt="Gallery Images">
+						<a class="lightbox" href="images/thumb_IMG_8259_1024.jpg">
+							<img class="img-fluid" src="images/thumb_IMG_8259_1024.jpg" alt="Gallery Images">
 						</a>
 					</div>
 					<div class="col-sm-6 col-md-4 col-lg-4">
-						<a class="lightbox" href="images/gallery-img-06.jpg">
-							<img class="img-fluid" src="images/gallery-img-06.jpg" alt="Gallery Images">
+						<a class="lightbox" href="">
+							<video class="img-fluid" width="520" style="height: 300px;" controls>
+								  <source src="video/IMG_6345.MOV" >
+								  <source src="movie.ogg" type="video/ogg">
+								Your browser does not support the video tag.
+							</video> 
 						</a>
 					</div>
 				</div>

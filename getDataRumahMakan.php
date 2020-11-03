@@ -17,8 +17,8 @@ if (isset($_POST['getData'])) {
 						<img style="height: 175px; width: 100%" src="admin/img/<?= $row['gambar'] ?>" class="img-fluid" alt="<?= $row['namaRM'] ?>">
 					</a>
 					<div style="padding: 15px">
-						<a target="_blank" href="menuRumahMakan.php?getDataMenuRumahMakan=<?= $row['namaRM'] ?>">
-							<h4 style="text-align: center;color: #d65106"><?= $row['namaRM'] ?></h4>
+						<a href="menuRumahMakan.php?getDataMenuRumahMakan=<?= $row['namaRM'] ?>">
+							<h4 style="text-align: center;color: #d65106">Rumah makan <?= $row['namaRM'] ?></h4>
 						</a>
 						<p>Pemilik Rumah Makan <?= $row['namaRM'] ?> yaitu <?= $row['pemilik'] ?> yang beralamat di <?= $row['alamat'] ?></p>
 

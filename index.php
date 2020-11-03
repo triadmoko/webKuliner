@@ -48,7 +48,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<h1 class="m-b-20"><strong>Selamat Datang di<br> Wisata Kampung Nelayan</strong></h1>
+							<h1 class="m-b-20"><strong>Selamat Datang di<br> Kampung Wisata  Nelayan</strong></h1>
 							<p class="m-b-40">Kampung Wisata Nelayan dan Kuliner Lauak Pukek di Kelurahan Pasia Nan Tigo Kecamatan Koto Tangah <br>Kota Padang Sumatera Barat</p>
 							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="rumahMakan.php">Rumah Makan</a></p>
 						</div>
@@ -60,7 +60,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<h1 class="m-b-20"><strong>Selamat Datang di<br> Wisata Kampung Nelayan</strong></h1>
+							<h1 class="m-b-20"><strong>Selamat Datang di<br> Kampung Wisata  Nelayan</strong></h1>
 							<p class="m-b-40">Kampung Wisata Nelayan dan Kuliner Lauak Pukek di Kelurahan Pasia Nan Tigo Kecamatan Koto Tangah <br>Kota Padang Sumatera Barat</p>
 							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="rumahMakan.php">Rumah Makan</a></p>
 						</div>
@@ -72,7 +72,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<h1 class="m-b-20"><strong>Selamat Datang di<br> Wisata Kampung Nelayan</strong></h1>
+							<h1 class="m-b-20"><strong>Selamat Datang di<br> Kampung Wisata  Nelayan</strong></h1>
 							<p class="m-b-40">Kampung Wisata Nelayan dan Kuliner Lauak Pukek di Kelurahan Pasia Nan Tigo Kecamatan Koto Tangah <br>Kota Padang Sumatera Barat</p>
 							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="rumahMakan.php">Rumah Makan</a></p>
 						</div>
@@ -95,7 +95,7 @@
 					<div class="inner-column">
 						<h1>Wisata Kampung <span>Nelayan</span></h1>
 						<h4>Kampung Nelayan</h4>
-						<p>Sebanyak 16 RM lauak pukek tersebar di pesisir kampung wisata nelayan Pasia Nan Tigo. Rumah makan “lauk pukek” (ikan pukat /jala) merupakan rumah makan khas kampung nelayan dimana menu makanan yang dijual adalah hasil tangkapan nelayan Pasie Nan Tigo sehingga rasanya sangat enak karena ikan yang diolah masih baru. Adapun jenis makanan andalannya seperti ikan gulai masin, ikan panggang/goreng, cumi panggang/goreng, palai bada dan lain-lain.</p>
+						<p>Sebanyak 8 RM lauak pukek tersebar di pesisir kampung wisata nelayan Pasia Nan Tigo. Rumah makan “lauk pukek” (ikan pukat /jala) merupakan rumah makan khas kampung nelayan dimana menu makanan yang dijual adalah hasil tangkapan nelayan Pasie Nan Tigo sehingga rasanya sangat enak karena ikan yang diolah masih baru. Adapun jenis makanan andalannya seperti ikan gulai masin, ikan panggang/goreng, cumi panggang/goreng, palai bada dan lain-lain.</p>
 
 						<p>Penikmat kuliner “lauk pukek” Pasie Nan Tigo berasal dari dalam kota Padang maupun luar daerah bahkan luar Provinsi Sumatera Barat. Biasanya RM “lauak pukek” dibuka pada jam 10.00 – 16.00 setiap harinya. Sambil menikmati kuliner “lauak pukek” pengunjung dapat menikmati suasana pantai yang sangat menawan serta dapat melihat aktivitas nelayan.</p>
 
@@ -117,7 +117,7 @@
 					<p class="lead">
 						"Kampung Wisata Nelayan dan Kuliner Lauak Pukek di Kelurahan Pasia Nan Tigo Kecamatan Koto Tangah."
 					</p>
-					<span class="lead">Michael Strahan</span>
+					<span class="lead">Tim Kampung Wisata Nelayan Pasia Nan Tigo</span>
 				</div>
 			</div>
 		</div>
@@ -384,33 +384,35 @@
 			<div class="tz-gallery">
 				<div class="row">
 					<div class="col-sm-12 col-md-4 col-lg-4">
-						<a class="lightbox" href="images/gallery-img-01.jpg">
-							<img class="img-fluid" src="images/gallery-img-01.jpg" alt="Gallery Images">
+						<a class="lightbox" href="images/thumb_IMG_8010_1024.jpg">
+							<img class="img-fluid" src="images/thumb_IMG_8010_1024.jpg" width="800" alt="Gallery Images">
 						</a>
 					</div>
 					<div class="col-sm-6 col-md-4 col-lg-4">
-						<a class="lightbox" href="images/gallery-img-02.jpg">
-							<img class="img-fluid" src="images/gallery-img-02.jpg" alt="Gallery Images">
-						</a>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-4">
-						<a class="lightbox" href="images/gallery-img-03.jpg">
-							<img class="img-fluid" src="images/gallery-img-03.jpg" alt="Gallery Images">
+						<a class="lightbox" href="images/thumb_IMG_8010_1024.jpg">
+							<img class="img-fluid" src="images/thumb_IMG_8143_1024.jpg" alt="Gallery Images">
 						</a>
 					</div>
 					<div class="col-sm-12 col-md-4 col-lg-4">
-						<a class="lightbox" href="images/gallery-img-04.jpg">
-							<img class="img-fluid" src="images/gallery-img-04.jpg" alt="Gallery Images">
+						<a class="lightbox" href="images/thumb_IMG_8567_1024.jpg">
+							<img class="img-fluid" src="images/thumb_IMG_8567_1024.jpg" alt="Gallery Images">
+						</a>
+					</div>
+					
+					<div class="col-sm-6 col-md-4 col-lg-4">
+						<a class="lightbox" href="images/thumb_IMG_8529_1024.jpg">
+							<img class="img-fluid" src="images/thumb_IMG_8529_1024.jpg" alt="Gallery Images">
+						</a>
+					</div>
+
+					<div class="col-sm-6 col-md-4 col-lg-4">
+						<a class="lightbox" href="images/thumb_IMG_7820_1024.jpg">
+							<img class="img-fluid" src="images/thumb_IMG_7820_1024.jpg" alt="Gallery Images">
 						</a>
 					</div>
 					<div class="col-sm-6 col-md-4 col-lg-4">
-						<a class="lightbox" href="images/gallery-img-05.jpg">
-							<img class="img-fluid" src="images/gallery-img-05.jpg" alt="Gallery Images">
-						</a>
-					</div>
-					<div class="col-sm-6 col-md-4 col-lg-4">
-						<a class="lightbox" href="images/gallery-img-06.jpg">
-							<img class="img-fluid" src="images/gallery-img-06.jpg" alt="Gallery Images">
+						<a class="lightbox" href="images/thumb_IMG_8259_1024.jpg">
+							<img class="img-fluid" src="images/thumb_IMG_8259_1024.jpg" alt="Gallery Images">
 						</a>
 					</div>
 				</div>
@@ -425,8 +427,8 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="heading-title text-center">
-						<h2>Customer Reviews</h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+						<h2>Review Pelanggan</h2>
+						<p></p>
 					</div>
 				</div>
 			</div>
@@ -479,58 +481,7 @@
 	<!-- End Contact info -->
 
 	<!-- Start Footer -->
-	<footer class="footer-area bg-f">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-6">
-					<h3>About Us</h3>
-					<p>Integer cursus scelerisque ipsum id efficitur. Donec a dui fringilla, gravida lorem ac, semper magna. Aenean rhoncus ac lectus a interdum. Vivamus semper posuere dui.</p>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<h3>Subscribe</h3>
-					<div class="subscribe_form">
-						<form class="subscribe_form">
-							<input name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address..." type="email">
-							<button type="submit" class="submit">SUBSCRIBE</button>
-							<div class="clearfix"></div>
-						</form>
-					</div>
-					<ul class="list-inline f-social">
-						<li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					</ul>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<h3>Contact information</h3>
-					<p class="lead">Ipsum Street, Lorem Tower, MO, Columbia, 508000</p>
-					<p class="lead"><a href="#">+01 2000 800 9999</a></p>
-					<p><a href="#"> info@admin.com</a></p>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<h3>Opening hours</h3>
-					<p><span class="text-color">Monday: </span>Closed</p>
-					<p><span class="text-color">Tue-Wed :</span> 9:Am - 10PM</p>
-					<p><span class="text-color">Thu-Fri :</span> 9:Am - 10PM</p>
-					<p><span class="text-color">Sat-Sun :</span> 5:PM - 10PM</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="copyright">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<p class="company-name">All Rights Reserved. &copy; 2018 <a href="#">Live Dinner Restaurant</a> Design By :
-							<a href="https://html.design/">html design</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</footer>
+	<?php include 'views/footer.php'; ?>
 	<!-- End Footer -->
 
 	<a href="#" id="back-to-top" title="Back to top" style="display: none;"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>

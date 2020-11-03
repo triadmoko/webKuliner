@@ -1,5 +1,13 @@
 <?php
 include '../config.php';
+session_start();
+
+if (!isset($_SESSION["login"])) {
+
+	header("Location:login.php");
+
+	exit;
+}
 if (isset($_POST['addRumahMakan'])) {
 
 	if (addRumahMakan($_POST) > 0) {
@@ -53,7 +61,7 @@ if (isset($_POST['addRumahMakan'])) {
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="heading-title text-center">
-						<h2>Silahkan Tambahkan Rumah Makan</h2>
+						<h2>Silahkan Tambahkan Rumah Makan Lauak Pukek</h2>
 					</div>
 				</div>
 			</div>
@@ -99,7 +107,7 @@ if (isset($_POST['addRumahMakan'])) {
 												</div>
 												<div class="card-body">
 													<div class="custom-file">
-														<input name="inputFile" type="file" id="inputFile" class="imgFile custom-file-input" aria-describedby="inputGroupFileAddon01">
+				 										<input name="inputFile" type="file" id="inputFile" class="imgFile custom-file-input" aria-describedby="inputGroupFileAddon01">
 														<label class="custom-file-label" for="inputFile">Choose file</label>
 													</div>
 												</div>
@@ -175,14 +183,68 @@ if (isset($_POST['addRumahMakan'])) {
 
 	</footer>
 </body>
-<script>
-	CKEDITOR.editorConfig = function(config) {
-		config.language = 'es';
-		config.uiColor = '#F7B42C';
-		config.height = 300;
-		config.toolbarCanCollapse = true;
-	};
-</script>
+	<script type="text/javascript">
+		var rupiah = document.getElementById('rupiah');
+		rupiah.addEventListener('keyup', function(e) {
+			// tambahkan 'Rp.' pada saat form di ketik
+			// gunakan fungsi formatRupiah() untuk mengubah angka yang di ketik menjadi format angka
+			rupiah.value = formatRupiah(this.value, 'Rp. ');
+		});
+
+		/* Fungsi formatRupiah */
+		function formatRupiah(angka, prefix) {
+			var number_string = angka.replace(/[^,\d]/g, '').toString(),
+				split = number_string.split(','),
+				sisa = split[0].length % 3,
+				rupiah = split[0].substr(0, sisa),
+				ribuan = split[0].substr(sisa).match(/\d{3}/gi);
+
+			// tambahkan titik jika yang di input sudah menjadi angka ribuan
+			if (ribuan) {
+				separator = sisa ? '.' : '';
+				rupiah += separator + ribuan.join('.');
+			}
+
+			rupiah = split[1] != undefined ? rupiah + ',' + split[1] : rupiah;
+			return prefix == undefined ? rupiah : (rupiah ? 'Rp. ' + rupiah : '');
+		}
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>
+		$("#inputFile").change(function(event) {
+			fadeInAdd();
+			getURL(this);
+		});
+
+		$("#inputFile").on('click', function(event) {
+			fadeInAdd();
+		});
+
+		function getURL(input) {
+			if (input.files && input.files[0]) {
+				var reader = new FileReader();
+				var filename = $("#inputFile").val();
+				filename = filename.substring(filename.lastIndexOf('\\') + 1);
+				reader.onload = function(e) {
+					debugger;
+					$('#imgView').attr('src', e.target.result);
+					$('#imgView').hide();
+					$('#imgView').fadeIn(500);
+					$('.custom-file-label').text(filename);
+				}
+				reader.readAsDataURL(input.files[0]);
+			}
+			$(".alert").removeClass("loadAnimate").hide();
+		}
+
+		function fadeInAdd() {
+			fadeInAlert();
+		}
+
+		function fadeInAlert(text) {
+			$(".alert").text(text).addClass("loadAnimate");
+		}
+	</script>
 <!-- ALL JS FILES -->
 <script src="../js/jquery-3.2.1.min.js"></script>
 <script src="../js/popper.min.js"></script>

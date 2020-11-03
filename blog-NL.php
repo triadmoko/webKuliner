@@ -71,7 +71,7 @@ include 'config.php';
 					<div class="blog-inner-details-page">
 						<div class="blog-inner-box">
 							<div class="side-blog-img">
-								<img class="img-fluid" src="images/inner-blog-img.jpg" alt="">
+								<img class="img-fluid" src="images/pm2.jpg" alt="">
 								<div class="date-blog-up">
 									6 oktober 2020
 								</div>

@@ -10,7 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Site Metas -->
-	<title>Live Dinner Restaurant - Responsive HTML5 Template</title>
+	<title>Tim - Kampung Wisata Nelayan</title>
 	<meta name="keywords" content="">
 	<meta name="description" content="">
 	<meta name="author" content="">
@@ -32,7 +32,15 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+<style>
+	.nama{
+		font-size: 20px;
+		color: #d65106;
+		font-weight: 700;
+		letter-spacing: 2px;
+		margin-bottom: 7px;
+	}
+</style>
 </head>
 
 <body>
@@ -45,7 +53,7 @@
 		<div class="container text-center">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1>Stuff</h1>
+					<h1>Tim Kampung Wisata Nelayan Pasia Nan Tigo</h1>
 				</div>
 			</div>
 		</div>
@@ -58,8 +66,8 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="heading-title text-center">
-						<h2>Stuff</h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+						<h2>Tim Kampung Wisata Nelayan Pasia Nan Tigo</h2>
+					<!-- 	<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p> -->
 					</div>
 				</div>
 			</div>
@@ -67,17 +75,18 @@
 				<div class="col-md-4 col-sm-6">
 					<div class="our-team">
 						<div class="pic">
-							<img src="images/stuff-img-01.jpg">
+							<img src="images/tim1.jpg" style="height: 360px">
 							<ul class="social">
-								<li><a href="#" class="fa fa-facebook"></a></li>
+								<!-- <li><a href="#" class="fa fa-facebook"></a></li>
 								<li><a href="#" class="fa fa-google-plus"></a></li>
 								<li><a href="#" class="fa fa-instagram"></a></li>
-								<li><a href="#" class="fa fa-linkedin"></a></li>
+								<li><a href="#" class="fa fa-linkedin"></a></li> -->
 							</ul>
 						</div>
 						<div class="team-content">
-							<h3 class="title">Williamson</h3>
-							<span class="post">Web Developer</span>
+							<h3 class="nama">Dr.Ir. Haryani, M.T.</h3>
+							<span class="post"></span>
+							<h3></h3>
 						</div>
 					</div>
 				</div>
@@ -85,17 +94,17 @@
 				<div class="col-md-4 col-sm-6">
 					<div class="our-team">
 						<div class="pic">
-							<img src="images/stuff-img-02.jpg">
+							<img src="images/tim2.png">
 							<ul class="social">
-								<li><a href="#" class="fa fa-facebook"></a></li>
+								<!-- <li><a href="#" class="fa fa-facebook"></a></li>
 								<li><a href="#" class="fa fa-google-plus"></a></li>
 								<li><a href="#" class="fa fa-instagram"></a></li>
-								<li><a href="#" class="fa fa-linkedin"></a></li>
+								<li><a href="#" class="fa fa-linkedin"></a></li> -->
 							</ul>
 						</div>
 						<div class="team-content">
-							<h3 class="title">Kristiana</h3>
-							<span class="post">Web Designer</span>
+							<h3 class="nama">Ade Fitri Rahmadani, S.Pd., M.Pd.T.</h3>
+							<!-- <span class="post">Web Designer</span> -->
 						</div>
 					</div>
 				</div>
@@ -103,71 +112,17 @@
 				<div class="col-md-4 col-sm-6">
 					<div class="our-team">
 						<div class="pic">
-							<img src="images/stuff-img-03.jpg">
+							<img src="images/tim3.jpg">
 							<ul class="social">
-								<li><a href="#" class="fa fa-facebook"></a></li>
+							<!-- 	<li><a href="#" class="fa fa-facebook"></a></li>
 								<li><a href="#" class="fa fa-google-plus"></a></li>
 								<li><a href="#" class="fa fa-instagram"></a></li>
-								<li><a href="#" class="fa fa-linkedin"></a></li>
+								<li><a href="#" class="fa fa-linkedin"></a></li> -->
 							</ul>
 						</div>
 						<div class="team-content">
-							<h3 class="title">Steve Thomas</h3>
-							<span class="post">Web Developer</span>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4 col-sm-6">
-					<div class="our-team">
-						<div class="pic">
-							<img src="images/stuff-img-04.jpg">
-							<ul class="social">
-								<li><a href="#" class="fa fa-facebook"></a></li>
-								<li><a href="#" class="fa fa-google-plus"></a></li>
-								<li><a href="#" class="fa fa-instagram"></a></li>
-								<li><a href="#" class="fa fa-linkedin"></a></li>
-							</ul>
-						</div>
-						<div class="team-content">
-							<h3 class="title">Williamson</h3>
-							<span class="post">Web Developer</span>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4 col-sm-6">
-					<div class="our-team">
-						<div class="pic">
-							<img src="images/stuff-img-05.jpg">
-							<ul class="social">
-								<li><a href="#" class="fa fa-facebook"></a></li>
-								<li><a href="#" class="fa fa-google-plus"></a></li>
-								<li><a href="#" class="fa fa-instagram"></a></li>
-								<li><a href="#" class="fa fa-linkedin"></a></li>
-							</ul>
-						</div>
-						<div class="team-content">
-							<h3 class="title">Kristiana</h3>
-							<span class="post">Web Designer</span>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4 col-sm-6">
-					<div class="our-team">
-						<div class="pic">
-							<img src="images/stuff-img-06.jpg">
-							<ul class="social">
-								<li><a href="#" class="fa fa-facebook"></a></li>
-								<li><a href="#" class="fa fa-google-plus"></a></li>
-								<li><a href="#" class="fa fa-instagram"></a></li>
-								<li><a href="#" class="fa fa-linkedin"></a></li>
-							</ul>
-						</div>
-						<div class="team-content">
-							<h3 class="title">Steve Thomas</h3>
-							<span class="post">Web Developer</span>
+							<h3 class="nama">Mirza Zoni, ST, MT.</h3>
+							<!-- <span class="post">Web Developer</span> -->
 						</div>
 					</div>
 				</div>

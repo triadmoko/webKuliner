@@ -1,5 +1,13 @@
 <?php
 include '../config.php';
+session_start();
+
+if (!isset($_SESSION["login"])) {
+
+	header("Location:login.php");
+
+	exit;
+}
 $id = $_GET['url'];
 $ambil = query("SELECT * FROM shop WHERE id = $id")[0];
 

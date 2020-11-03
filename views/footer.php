@@ -2,8 +2,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-6">
-					<h3>About Us</h3>
-					<p>Integer cursus scelerisque ipsum id efficitur. Donec a dui fringilla, gravida lorem ac, semper magna. Aenean rhoncus ac lectus a interdum. Vivamus semper posuere dui.</p>
+					<h3>Tentang Kami</h3>
+					<p>Website ini berisikan aktivitas kampung wisata nelayan binaan Universitas Bung Hatta, dimana terkenal dengan wisata kuliner "lauk pukek" Era New Normal dan berbasis online serta aktivitas nelayan tradisional Pasia Nan Tigo. </p>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<h3>Subscribe</h3>
@@ -23,17 +23,16 @@
 					</ul>
 				</div>
 				<div class="col-lg-3 col-md-6">
-					<h3>Contact information</h3>
-					<p class="lead">Ipsum Street, Lorem Tower, MO, Columbia, 508000</p>
-					<p class="lead"><a href="#">+01 2000 800 9999</a></p>
-					<p><a href="#"> info@admin.com</a></p>
+					<h3>Informasi Kontak</h3>
+					<!-- <p class="lead">Ipsum Street, Lorem Tower, MO, Columbia, 508000</p> -->
+					<p class="lead">Universitas Bung Hatta<a href="tel:07517051678"> 0751-7051678</a></p>
+					<p class="lead">Dr. Ir. Haryani, M.T <a href="tel:08126719902"> +628126719902</a></p>
+
+					<p><a href="mailto:irharyanimtp@yahoo.co.id"> irharyanimtp@yahoo.co.id</a></p>
 				</div>
 				<div class="col-lg-3 col-md-6">
-					<h3>Opening hours</h3>
-					<p><span class="text-color">Monday: </span>Closed</p>
-					<p><span class="text-color">Tue-Wed :</span> 9:Am - 10PM</p>
-					<p><span class="text-color">Thu-Fri :</span> 9:Am - 10PM</p>
-					<p><span class="text-color">Sat-Sun :</span> 5:PM - 10PM</p>
+					<h3>Buka</h3>
+					<p><span class="text-color">Senin-Minggu</span> 10.00 - 16.00</p>
 				</div>
 			</div>
 		</div>
@@ -42,8 +41,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<p class="company-name">All Rights Reserved. &copy; 2018 <a href="#">Live Dinner Restaurant</a> Design By : 
-					<a href="https://html.design/">html design</a></p>
+						<p class="company-name">All Rights Reserved. &copy; <?= date('Y'); ?> <a href="#">Wisata Kampung Nelayan</a> Design By : 
+					<a href="https://html.design/">Triadmoko Denny Fatrosa</a></p>
 					</div>
 				</div>
 			</div>
