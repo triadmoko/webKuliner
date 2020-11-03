@@ -11,7 +11,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Site Metas -->
-	<title>Live Dinner Restaurant - Responsive HTML5 Template</title>
+	<title>Galeri - Wisata Kampung Nelayan</title>
 	<meta name="keywords" content="">
 	<meta name="description" content="">
 	<meta name="author" content="">
@@ -99,14 +99,24 @@
 						</a>
 					</div>
 					<div class="col-sm-6 col-md-4 col-lg-4">
+						<a class="lightbox" href="images/thumb_IMG_8259_1024.jpg">
+							<img class="img-fluid" src="images/thumb_IMG_8259_1024.jpg" alt="Gallery Images">
+						</a>
+					</div>					
+					<?php 
+					$video = query("SELECT * FROM video");
+					foreach ($video as $row): 
+					?>
+					<div class="col-sm-6 col-md-4 col-lg-4">
 						<a class="lightbox" href="">
-							<video class="img-fluid" width="520" style="height: 300px;" controls>
-								  <source src="video/IMG_6345.MOV" >
+							<video class="img-fluid" width="520" style="height: 250px;" controls>
+								  <source src="admin/video/<?= $row['video'] ?>" >
 								  <source src="movie.ogg" type="video/ogg">
 								Your browser does not support the video tag.
 							</video> 
 						</a>
 					</div>
+					<?php endforeach; ?>
 				</div>
 			</div>
 		</div>
@@ -168,63 +178,8 @@
 	</div>
 	<!-- End Customer Reviews -->
 
-	<!-- Start Contact info -->
-
-	<!-- End Contact info -->
-
 	<!-- Start Footer -->
-	<footer class="footer-area bg-f">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-6">
-					<h3>About Us</h3>
-					<p>Integer cursus scelerisque ipsum id efficitur. Donec a dui fringilla, gravida lorem ac, semper magna. Aenean rhoncus ac lectus a interdum. Vivamus semper posuere dui.</p>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<h3>Subscribe</h3>
-					<div class="subscribe_form">
-						<form class="subscribe_form">
-							<input name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address..." type="email">
-							<button type="submit" class="submit">SUBSCRIBE</button>
-							<div class="clearfix"></div>
-						</form>
-					</div>
-					<ul class="list-inline f-social">
-						<li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					</ul>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<h3>Contact information</h3>
-					<p class="lead">Ipsum Street, Lorem Tower, MO, Columbia, 508000</p>
-					<p class="lead"><a href="#">+01 2000 800 9999</a></p>
-					<p><a href="#"> info@admin.com</a></p>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<h3>Opening hours</h3>
-					<p><span class="text-color">Monday: </span>Closed</p>
-					<p><span class="text-color">Tue-Wed :</span> 9:Am - 10PM</p>
-					<p><span class="text-color">Thu-Fri :</span> 9:Am - 10PM</p>
-					<p><span class="text-color">Sat-Sun :</span> 5:PM - 10PM</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="copyright">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<p class="company-name">All Rights Reserved. &copy; 2018 <a href="#">Live Dinner Restaurant</a> Design By :
-							<a href="https://html.design/">html design</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</footer>
+	<?php include 'views/footer.php'; ?>
 	<!-- End Footer -->
 
 	<a href="#" id="back-to-top" title="Back to top" style="display: none;"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>

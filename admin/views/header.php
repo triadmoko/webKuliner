@@ -15,8 +15,8 @@
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Galeri</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="index.php">Add Video</a>
-								<a class="dropdown-item" href="addRumahMakan.php">Add Gambar</a>
+								<a class="dropdown-item" href="addVideo.php">Add Video</a>
+								<a class="dropdown-item" href="addFoto.php">Add Gambar</a>
 							</div>
 						</li>
 

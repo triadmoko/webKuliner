@@ -60,7 +60,23 @@ function addRumahMakan($data) {
 
 	return mysqli_affected_rows($conn);
 }
+// add gambar
+function addGambar($data) {
+	global $conn;
 
+	$gambar = upload();
+	if( !$gambar ) {
+		return false;
+	}
+
+	$query = "INSERT INTO `gambar`
+				(`id`, `gambar`) 
+			VALUES (NULL,'$gambar')
+			";
+	mysqli_query($conn, $query);
+
+	return mysqli_affected_rows($conn);
+}
 
 function upload() {
 
@@ -228,3 +244,70 @@ function registrasi($data) {
 	return mysqli_affected_rows($conn);
 
 }
+
+
+
+// Add Video 
+function addVideo($data) {
+	global $conn;
+
+	// add gambar dari rumah makan
+	$video = uploadVideo();
+	if( !$video ) {
+		return false;
+	}
+
+	$query = "INSERT INTO `video`
+				(`id`, `video`) 
+			VALUES (null,'$video')
+			";
+	mysqli_query($conn, $query);
+
+	return mysqli_affected_rows($conn);
+}
+
+
+function uploadVideo() {
+
+	$namaFile = $_FILES['video']['name'];
+	$ukuranFile = $_FILES['video']['size'];
+	$error = $_FILES['video']['error'];
+	$tmpName = $_FILES['video']['tmp_name'];
+
+	// cek apakah tidak ada gambar yang diupload
+	if( $error === 4 ) {
+		echo "<script>
+				alert('pilih gambar terlebih dahulu!');
+			  </script>";
+		return false;
+	}
+
+	// cek apakah yang diupload adalah gambar
+	$ekstensiGambarValid = ['mp4', 'mkv', 'mov', 'mpg'];
+	$ekstensiGambar = explode('.', $namaFile);
+	$ekstensiGambar = strtolower(end($ekstensiGambar));
+	if( !in_array($ekstensiGambar, $ekstensiGambarValid) ) {
+		echo "<script>
+				alert('yang anda upload bukan video!');
+			  </script>";
+		return false;
+	}
+
+	// cek jika ukurannya terlalu besar
+	if( $ukuranFile > 50000000 ) {
+		echo "<script>
+				alert('ukuran gambar terlalu besar!');
+			  </script>";
+		return false;
+	}
+
+	// lolos pengecekan, gambar siap diupload
+	// generate nama gambar baru
+	$namaFileBaru = uniqid();
+	$namaFileBaru .= '.';
+	$namaFileBaru .= $ekstensiGambar;
+
+	move_uploaded_file($tmpName, 'video/' . $namaFileBaru);
+	return $namaFileBaru;
+}
+

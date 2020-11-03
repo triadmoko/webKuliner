@@ -188,19 +188,7 @@ if (isset($namarm)) {
 		</ul>
 	</nav>
 	<!-- Start Footer -->
-	<footer>
-		<div class="copyright">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<p class="company-name">All Rights Reserved. &copy; 2018 <a href="#">Live Dinner Restaurant</a> Design By :
-							<a href="https://html.design/">html design</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</footer>
+	<?php include 'views/footer.php'; ?>
 	<!-- End Footer -->
 
 	<a href="#" id="back-to-top" title="Back to top" style="display: none;"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>

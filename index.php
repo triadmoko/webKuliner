@@ -10,7 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Site Metas -->
-	<title>Wisata Kampung Nelayan</title>
+	<title>Home - Wisata Kampung Nelayan</title>
 	<meta name="keywords" content="">
 	<meta name="description" content="">
 	<meta name="author" content="">

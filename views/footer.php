@@ -42,7 +42,7 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<p class="company-name">All Rights Reserved. &copy; <?= date('Y'); ?> <a href="#">Wisata Kampung Nelayan</a> Design By : 
-					<a href="https://html.design/">Triadmoko Denny Fatrosa</a></p>
+					<a href="#">Triadmoko Denny Fatrosa</a></p>
 					</div>
 				</div>
 			</div>
