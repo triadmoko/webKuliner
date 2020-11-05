@@ -25,7 +25,7 @@
 				<div class="col-lg-3 col-md-6">
 					<h3>Informasi Kontak</h3>
 					<!-- <p class="lead">Ipsum Street, Lorem Tower, MO, Columbia, 508000</p> -->
-					<p class="lead">Universitas Bung Hatta<a href="tel:07517051678"> 0751-7051678</a></p>
+					<p class="lead">Universitas Bung Hatta <br><a href="tel:07517051678"> 0751-7051678</a></p>
 					<p class="lead">Dr. Ir. Haryani, M.T <a href="tel:08126719902"> +628126719902</a></p>
 
 					<p><a href="mailto:irharyanimtp@yahoo.co.id"> irharyanimtp@yahoo.co.id</a></p>

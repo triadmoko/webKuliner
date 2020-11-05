@@ -311,3 +311,14 @@ function uploadVideo() {
 	return $namaFileBaru;
 }
 
+
+function deleteFoto($id) {
+	global $conn;
+	mysqli_query($conn, "DELETE FROM gambar WHERE id = $id");
+	return mysqli_affected_rows($conn);
+}
+function deleteVideo($id) {
+	global $conn;
+	mysqli_query($conn, "DELETE FROM video WHERE id = $id");
+	return mysqli_affected_rows($conn);
+}

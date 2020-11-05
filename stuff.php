@@ -137,8 +137,8 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="heading-title text-center">
-						<h2>Customer Reviews</h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+						<h2>Review Pelanggan</h2>
+						<p></p>
 					</div>
 				</div>
 			</div>
@@ -148,28 +148,31 @@
 						<div class="carousel-inner mt-4">
 							<div class="carousel-item text-center active">
 								<div class="img-box p-1 border rounded-circle m-auto">
-									<img class="d-block w-100 rounded-circle" src="images/quotations-button.png" alt="">
-								</div>
-								<h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Paul Mitchel</strong></h5>
-								<h6 class="text-dark m-0">Web Developer</h6>
-								<p class="m-0 pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+									<img class="d-block w-100 rounded-circle" src="images/review1.jpg" alt="Kadis Pariwisata Sumbar">
+								</div><br>
+								<h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Novrial, SE, MA. Ak.</strong></h5>
+								<h6 class="text-dark m-0">Kadis Pariwisata Sumbar</h6>
+								<p class="m-0 pt-3">
+									Salah satu motif kunjungan wisatawan ke Sumatera Barat adalah karena ingin menikmati berbagai kuliner lokal spesifik. Bagi para penikmat kuliner sejati, selera akan membawa mereka ke lokasi-lokasi khusus yang sering tidak diketahui banyak orang, punya view yang indah, punya aktifitas keseharian masyarakat yang unik dan jarang ditemui ditempat asal mereka. Dinas Pariwisata Sumatera Barat sangat mendukung pengembangan konsep-konsep spesifik sedemikian, dan berharap akan didukung semua pihak sehingga kinerja kepariwisataan Sumatera Barat dimasa mendatang akan lebih baik dengan pendekatan community based tourism.</p>
 							</div>
 							<div class="carousel-item text-center">
 								<div class="img-box p-1 border rounded-circle m-auto">
-									<img class="d-block w-100 rounded-circle" src="images/quotations-button.png" alt="">
+									<img class="d-block w-100 rounded-circle" src="images/review2.jpg" alt="Annisa Ananda Nusyirwan">
 								</div>
-								<h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Steve Fonsi</strong></h5>
-								<h6 class="text-dark m-0">Web Designer</h6>
-								<p class="m-0 pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+								<h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Annisa Ananda Nusyirwan</strong></h5>
+								<h6 class="text-dark m-0">Top 10 Miss Eco Internasional 2017</h6>
+								<p class="m-0 pt-3">Pemandangan nya indah,  tempatnya nyaman. Wisata kuliner lauk pukek di kampung nelayan Pasie Nan Tigo rasanya luar biasa.  Sempurna maknyuss...</p>
 							</div>
+
 							<div class="carousel-item text-center">
 								<div class="img-box p-1 border rounded-circle m-auto">
-									<img class="d-block w-100 rounded-circle" src="images/quotations-button.png" alt="">
-								</div>
-								<h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Daniel vebar</strong></h5>
-								<h6 class="text-dark m-0">Seo Analyst</h6>
-								<p class="m-0 pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+									<img class="d-block w-100 rounded-circle" src="images/review3.jpg" alt="Annisa Ananda Nusyirwan">
+								</div><br><br><br>
+								<h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Drs. Firdaus Dahlan, MBL</strong></h5>
+								<h6 class="text-dark m-0">Director of IMT-GT Subregional Cooperation, PutraJaya-Malaysia</h6>
+								<p class="m-0 pt-3">Saya sangat menghargai upaya utk memperkenalkan ragam kuliner daerah seperti Lauak Pukek Pasie Nan Tigo di daerah Padang kpd pecinta kuliner dalam  negeri maupun luar negeri. Keharuman nama SUMBAR sbg destinasi kuliner memang sdh tdk diragukan, seperti rendang yg saat ini sdh mendunia. Lihat saja di Belanda... begitu banyaknya restaurant Indonesia yg menjadikan rendang sbg ikonya. Sejatinya, masih banyak kuliner daerah yg autentik utk dipromosikan termasuk Lauak Pukek Pasie nan Tigo     kpd pecinta kuliner termasuk di Negara Jiran kita Malaysia.</p>
 							</div>
+							
 						</div>
 						<a class="carousel-control-prev" href="#reviews" role="button" data-slide="prev">
 							<i class="fa fa-angle-left" aria-hidden="true"></i>

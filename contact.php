@@ -45,7 +45,7 @@
 		<div class="container text-center">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1>Contact</h1>
+					<h1>Kontak</h1>
 				</div>
 			</div>
 		</div>
@@ -53,14 +53,13 @@
 	<!-- End All Pages -->
 
 	<!-- Start Contact -->
-	<div class="map-full"></div>
+	<iframe class="map-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1641.4737079319116!2d100.29704702648468!3d-0.8252670414766207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4c184b4be56d3%3A0x78b74233b4e0b45f!2sPasir%20Jambak%20Beach!5e1!3m2!1sid!2sid!4v1604455201580!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 	<div class="contact-box">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="heading-title text-center">
-						<h2>Contact</h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+						<h2>Kontak</h2>
 					</div>
 				</div>
 			</div>
@@ -145,7 +144,8 @@
 				</div>
 			</div>
 		</div>
-	</div> -->
+	</div> 
+-->
 	<!-- End Contact info -->
 
 	<!-- Start Footer -->
@@ -168,17 +168,6 @@
 	<script src="js/form-validator.min.js"></script>
 	<script src="js/contact-form-script.js"></script>
 	<script src="js/custom.js"></script>
-	<script>
-		$('.map-full').mapify({
-			points: [{
-				lat: 40.7143528,
-				lng: -74.0059731,
-				marker: true,
-				title: 'Marker title',
-				infoWindow: 'Live Dinner Restaurant'
-			}]
-		});
-	</script>
 </body>
 
 </html>

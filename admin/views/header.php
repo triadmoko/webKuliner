@@ -17,6 +17,7 @@
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
 								<a class="dropdown-item" href="addVideo.php">Add Video</a>
 								<a class="dropdown-item" href="addFoto.php">Add Gambar</a>
+								<a class="dropdown-item" href="listGaleri.php">List Galeri</a>
 							</div>
 						</li>
 
